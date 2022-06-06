@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>kuznya34</title>
+    <link type="text/css" rel="stylesheet" media="screen" href="style.css"/>
+    <link href="adaptiv2.css" rel="stylesheet" media="screen and (min-device-width: 480px)" />
+</head>
+<body>
+  <header>
+    <div class="block2"> <!--блокирует для десктопа-->
+                <!--ВСЕ МЕНЮ-->
+          <!-- input нужен для того, что бы в дальнейшем задать стили иконке ☰ по событию checked, то есть когда меню будем открыать и закрыать -->
+      <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+  <!-- Далее вёрстка самой иконки. Разделена на спаны, что бы красиво превращать в крестик при открытии (почти как в Телеграме :) -->
+      <label class="btn-menu" for="hmt">
+      <span class="first"></span>
+      <span class="second"></span>
+      <span class="third"></span>
+      </label>
+  <!-- Менюшка раскрывающаяся и скрывающаяся -->
+      <ul class="hidden-menu">
+      <div id="x1">
+          <li><a href="index.html">ГЛАВНАЯ</a></li>
+          <!--<li><a href="">О НАС</a></li>-->
+          <li><a href="#slidess">ГАЛЕРЕЯ</a></li>
+          <li><a href="#ancher_k_m">КОНТАКТЫ</a></li>
+      </div>
+      </ul>
+  <!--конец верхнего меню-->
+                <!--КОНЕЦ МЕНЮ-->
+    </div> <!--конец блокировки для десктопа-->      
+  </header>
+    <div class="block2"> <!--блокирует для десктопа-->
+        <div class="grid_mobyle">
+            <div class="hat_mobyle">
+                <img class="kuznya_mobyle" src="img/kuznya4.png" alt="кузнец">
+                <a href="tel:+79195442430" class="tel_mobyle"><img src="img/tel2.png" alt="" class="tel_mobyle" ></a>
+                <a href="https://www.instagram.com/svarnya_kuznya_34/" class="insta_mobyle"><img src="img/insta2.png" alt="" class="insta_mobyle"></a>
+            </div>
+            <p class="text_one_mobyle">Сварочно монтажные работы любой сложности</p>
+            <img src="img2/1624039324000.jpg" alt="img" class="image_one_mobyle">
+            <p class="text_two_mobyle">Художественная ковка</p>
+            <img src="img2/1622349121575.jpg" alt="img" class="image_two_mobyle">
+            <div class="ul_one_mobyle">
+                <ul>            
+                    <li>ворота</li>
+                    <li>калитки</li>
+                    <li>заборы</li>
+                </ul>
+            </div>
+            <div class="ul_two_mobyle">   
+                <ul>
+                    <li>лестницы</li>
+                    <li>ограды</li>
+                    <li>типлицы</li>
+                  </ul>
+            </div>
+            <img src="img2/2020-06-12 15.24.32 2329890998729565381_14220784594.jpg" alt="img" class="image_three_mobyle">
+            <div class="ul_three_mobyle">
+                <ul>
+                    <li>замер</li>
+                    <li>доставка</li>
+                    <li>установка</li>
+                </ul>
+            </div>
+            <img src="img2/collages.jpg" alt="img" class="image_colage_mobyle">
+            <p class="text_three_mobyle">галерея работ</p>
+                            <!--галерея -->
+            <div class="gallery_mobyle">               
+                <ul class="slides" id="slidess">
+                    <input type="radio" name="radio-btn" id="img-1" checked />
+                    <li class="slide-container">
+                    <div class="slide">
+                    <img src="img2/25.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-6" class="prev">&#x2039;</label>
+                    <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-2" />
+                    <li class="slide-container">
+                        <div class="slide">
+                        <img src="img2/34.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-1" class="prev">&#x2039;</label>
+                    <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-3" />
+                    <li class="slide-container">
+                        <div class="slide">
+                        <img src="img2/38.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-2" class="prev">&#x2039;</label>
+                    <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-4" />
+                    <li class="slide-container">
+                        <div class="slide">
+                        <img src="img2/2021-01-11 12.33.28 2484182123601642986_14220784594.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-3" class="prev">&#x2039;</label>
+                    <label for="img-5" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-5" />
+                    <li class="slide-container">
+                        <div class="slide">
+                        <img src="img2/2021-04-24 08.56.54 2558725021235567357_14220784594.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-4" class="prev">&#x2039;</label>
+                    <label for="img-6" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <input type="radio" name="radio-btn" id="img-6" />
+                    <li class="slide-container">
+                        <div class="slide">
+                        <img src="img2/14.jpg" />
+                        </div>
+                    <div class="nav">
+                    <label for="img-5" class="prev">&#x2039;</label>
+                    <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                    </li>
+
+                    <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                    <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                    </li>
+                </ul>
+            </div>    
+                <!--конец галереи-->
+            <p class="text_four_mobyle">больше фото в <a href="https://www.instagram.com/svarnya_kuznya_34/">instagram</a></p>  
+            <div class="footer_mobyle">
+                <p class="f_m1" id="ancher_k_m">
+                    <span class="footer_span_m">КОНТАКТЫ :</span><br>
+                    &#9742; +7 919 544 24 30 <br>
+                    <a href="https://www.instagram.com/svarnya_kuznya_34/">INSTAGRAM</a>
+                </p>
+                <p class="f_m2">
+                    <span class="infa1_m">разработка и поддержка сайтов :</span>
+                   &#9742; <a href="tel:+79375402899"> +79375402899</a>
+                </p>
+            </div>  
+        </div>
+    </div> <!--конец блокировки для десктопа--> 
+
+
+    <!-- ДАЛЕЕ ДЕСКТОП-->
+
+
+    <div class="block"> <!--блокирует на мобиле-->
+        <div class="grid_desktop">
+            <div class="header_desktop">
+                <div class="kuznya"><img src="img/kuznya.jpg" alt="кузнец"></div>
+                <div class="tel"><a href="tel:+79195442430"><img src="img/tel.png" alt="tel"></a></div>
+                <div class="insta"><a href="https://www.instagram.com/svarnya_kuznya_34/"><img src="img/insta.jpg" alt="insta"></a></div>
+                <div class="tel2"><a href="tel:+79195442430">+7 919 544 24 30</a></div>
+            </div>
+            <div class="nav_desktop">
+                <a href="adaptiv.html" class="home_desktop">ГЛАВНАЯ</a>
+                <a href="#anchor_desktop" class="gallery_desktop">ГАЛЕРЕЯ</a>
+                <a href="#ancher_k_d" class="kontakts_desktop">КОНТАКТЫ</a>
+            </div>
+            <div class="karusel_desktop">
+                <div id="comment">
+                    <h2 class="focus-in-contract-bck">СВАРОЧНО МОНТАЖНЫЕ РАБОТЫ<br>ЛЮБОЙ СЛОЖНОСТИ</h2>
+                  </div>
+                    <div class="wrapper">
+                      <figure>  
+                       <img class="i1" src="img2\1622349121630.2.jpg">
+                       <img class="i1" src="img2\1622349121575.2.jpg">
+                       <img class="i1" src="img2\1622349121573.2.jpg">
+                       <!--<img class="i1" src="img/Плахов_Кузница_1845.jpg">-->
+                      </figure> 
+                  </div>
+            </div>
+            <div class="one_desktop">
+                <div id="biggrid">
+                    <div id="grid">
+                      <div class="red"><img src="img2\25.jpg" alt="изделие"></div>
+                      <div class="green"><img src="img2\7.jpg" alt="изделие"></div>
+                      <div class="blue"><img src="img2\35.jpg" alt="изделие"></div>
+                    </div>  
+                      <p id="text">
+                          ХУДОЖЕСТВЕННАЯ КОВКА
+                      </p>
+                   </div>
+            </div>
+            <div class="twoo_desktop">
+                    <div id="grid2">
+                      <div class="red2"><img src="img2\25.jpg" alt="изделие1"></div>
+                      <div class="green2"><img src="img2\7.jpg" alt="изделие2"></div>
+                      <div class="blue2"><img src="img2\1622349121632.jpg" alt="изделие3"></div>
+                    </div> 
+                        <ul class="ul1">
+                          <li>ворота</li>
+                          <li>калитки</li>
+                          <li>заборы</li>
+                        </ul>
+
+                        <ul class="ul2">
+                          <li>лестницы</li>
+                          <li>ограды</li>
+                          <li>типлицы</li>
+                        </ul>
+            </div>
+            <div class="collage_desktop">
+                <img class="collage" src="img2\collages.jpg" alt="коллаж">
+                <ul class="ul3">
+                    <li>ЗАМЕР</li>
+                    <li>ДОСТАВКА</li>
+                    <li>УСТАНОВКА</li>
+                  </ul>
+            </div>
+            <div class="images_desktop">
+
+
+              <div class="cssSlider" id="anchor_desktop">
+                <ul class="slides">
+                  <li  id="slide1"><img src="img2/32.jpg" alt="" /></li>
+                  <li  id="slide2"><img src="img2/33.jpg" alt="" /></li>
+                  <li  id="slide3"><img src="img2/34.jpg" alt="" /></li>
+                  <li  id="slide4"><img src="img2/35.jpg" alt="" /></li>
+                  <li  id="slide5"><img src="img2/2021-01-25 18.47.32 2494517261329981080_14220784594.jpg" alt="" /></li>
+                </ul>
+                <ul class="thumbnails">
+                  <li><a href="#slide1"><img src="img2/32.jpg" /></a></li>
+                  <li><a href="#slide2"><img src="img2/33.jpg" /></a></li>
+                  <li><a href="#slide3"><img src="img2/34.jpg" /></a></li>
+                  <li><a href="#slide4"><img src="img2/35.jpg" /></a></li>
+                  <li><a href="#slide5"><img src="img2/2021-01-25 18.47.32 2494517261329981080_14220784594.jpg" /></a></li>
+                </ul>
+              </div>
+              <div class="img_text_desktop">
+                <p>БОЛЬШЕ ФОТО<br> В <a href="https://www.instagram.com/svarnya_kuznya_34/">INSTAGRAM</a></p>
+              </div>
+            </div>
+            <footer class="f_d">
+                <p class="f_d1" id="ancher_k_d">
+                    <span class="span_d">КОНТАКТЫ :</span><br>
+                    &#9742; +7 919 544 24 30 <br>
+                    <a href="https://www.instagram.com/svarnya_kuznya_34/">INSTAGRAM</a>
+                </p>
+                <p class="f_d2">
+                    <span class="infa1">разработка и поддержка сайтов :</span>
+                   &#9742; +79375402899
+                </p>
+            </footer>
+        </div>
+    </div><!--конец блокировки на мобиле-->
+  <!-- КОНЕЦ ДЕСКТОПА -->
+</body>
+</html>
